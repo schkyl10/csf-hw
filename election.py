@@ -7,6 +7,10 @@ import csv
 import os
 import time
 
+x = True
+while x == True:
+    print "Look behind you"
+
 def read_csv(path):
     """
     Reads the CSV file at path, and returns a list of rows. Each row is a
